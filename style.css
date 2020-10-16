@@ -2,6 +2,8 @@ body main{
   padding: 10%;
 }
 
+/* header Position und Farbe */
+
 header {
   width: 100%;
   position: fixed;        
@@ -23,10 +25,13 @@ header {
 
 /* Positioniert den Dropdown-Content */
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
   padding-left: 5%;
 
+  right: 40px;
+  width: 60px;
+  padding: 10px;
 }
 
 /* Dropdown Content (Standartmäig hidden) */
@@ -56,5 +61,3 @@ header {
 
 /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
