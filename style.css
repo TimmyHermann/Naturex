@@ -18,14 +18,22 @@ body {
   background-color: #000;
 }
 
+/*Logo oben Links*/
+#logoTopLeft {
+  height: 10vh;
+  width: auto;
+}
+
 /*Design für Headline*/
-.headline{
+.headline {
   position: absolute;
   text-align: center;
-  bottom: 30%;
+  top: 50%;
+  transform: translateY(-50%);
   left: 46%;
   color: #000;
   font-family: arial;
+  font-size: 2.2vmin;
   }	
 		
 
