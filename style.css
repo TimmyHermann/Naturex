@@ -19,7 +19,8 @@ header {
 
 body {
   background-image: url("images/forest_bg.jpg");
-  background-color: #000;
+  background-color: green;
+  color: white;
 }
 
 /*Logo oben Links*/
@@ -36,6 +37,9 @@ body {
   transform: translateY(-50%);
   left: 46%;
   font-size: 2.2vmin;
+
+  margin-left: auto;
+  margin-right: auto;
   }	
 		
 
@@ -115,15 +119,33 @@ body {
   height: 40vh;
 }
 
-#produkt, #details {
+#produkt, #details, #anwendung {
   color: white;
   display: flex;
+  justify-content: center;
+  /*flex-wrap: wrap;*/
 }
 
 .snap-box div {
   margin: auto;
+  padding: 25px;
 }
 
 #toothex {
   font-size: 10vh;
+}
+
+#anwendung div {
+  width: 100%;
+  margin: auto;
+}
+
+#anwendung div img {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.anwendungImg {
+  height: 25vh;
+  float: left;
 }
