@@ -1,3 +1,7 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
 body main{
   padding: 10%;
 }
@@ -31,8 +35,6 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 46%;
-  color: #000;
-  font-family: arial;
   font-size: 2.2vmin;
   }	
 		
@@ -100,4 +102,20 @@ body {
   min-height: 100vh;
   display: flex;
   scroll-snap-align: start;
+}
+
+/* Das Produkt*/
+
+#zahnpastaProduktbild {
+  height: 60vh;
+
+}
+
+#boxProduktbild {
+  height: 60vh;
+}
+
+#produkt, #details {
+  padding-top: 20vh;
+  color: white;
 }
