@@ -112,10 +112,18 @@ body {
 }
 
 #boxProduktbild {
-  height: 60vh;
+  height: 40vh;
 }
 
 #produkt, #details {
-  padding-top: 20vh;
   color: white;
+  display: flex;
+}
+
+.snap-box div {
+  margin: auto;
+}
+
+#toothex {
+  font-size: 10vh;
 }
