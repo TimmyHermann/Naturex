@@ -121,7 +121,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 
 .snap-box div {
@@ -145,5 +145,4 @@ body {
 
 .anwendungImg {
   height: 25vh;
-  float: left;
 }
