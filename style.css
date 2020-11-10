@@ -10,6 +10,7 @@ body main{
 
 header {
   width: 100%;
+  height: 10%;
   position: fixed;        
   background: #2A7221;
   color: #fff;
@@ -31,15 +32,11 @@ body {
 
 /*Design für Headline*/
 .headline {
-  position: absolute;
+  position: static;  /*Static damit es mittig ist*/
   text-align: center;
-  top: 50%;
   transform: translateY(-50%);
-  left: 46%;
-  font-size: 2.2vmin;
-
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 4.2vmin;
+  height: 25vh; /*Height für Abstand nach unten*/
   }	
 		
 
@@ -55,7 +52,7 @@ body {
 
 /* Positioniert den Dropdown-Content */
 .dropdown {
-  position: absolute;
+  position: fixed;
   display: inline-block;
   right: 0px;
 }
