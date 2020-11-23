@@ -44,7 +44,7 @@ body {
 /* Desing Vorlage für das Dropdown Menü */
 
 .dropbtn {
-  background-color: #31CB00;
+  background-color: #3CE026;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -56,13 +56,15 @@ body {
   position: fixed;
   display: inline-block;
   right: 0px;
+  height: 10%;
+  width: auto;
 }
 
 /* Dropdown Content (Standartmäig hidden) */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #96C5B0;
+  background-color: #50E03D;
   min-width: 10%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -86,7 +88,7 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #2A7221;}
 
 /* Grid Snap Test */
 .snap-wrapper {
