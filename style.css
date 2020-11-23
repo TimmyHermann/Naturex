@@ -32,7 +32,7 @@ body {
 
 /*Design für Headline*/
 .headline {
-  position: static;  /*Static damit es mittig ist*/
+  position: absolute;  
   text-align: center;
   transform: translateY(-50%);
   font-size: 4.2vmin;
