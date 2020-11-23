@@ -35,6 +35,7 @@ body {
   position: absolute;  
   text-align: center;
   transform: translateY(-50%);
+  left: 6%;
   font-size: 4.2vmin;
   height: 25vh; /*Height für Abstand nach unten*/
   }	
