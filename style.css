@@ -90,22 +90,6 @@ body {
 /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
 .dropdown:hover .dropbtn {background-color: #2A7221;}
 
-/* Grid Snap Test */
-.snap-wrapper {
-  width: 100%;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  scrollbar-width: none;
-}
-
-.snap-wrapper .snap-box {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  scroll-snap-align: start;
-}
-
 /* Das Produkt*/
 
 #zahnpastaProduktbild {
