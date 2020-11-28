@@ -48,6 +48,11 @@ body {
   font-size: 4.2vmin;
   height: 25vh; /*Height für Abstand nach unten*/
 }	
+@media only screen and (max-width: 800px) {
+  .slogan {
+    display: none;
+  }
+}
 		
 
 /* Desing Vorlage für das Dropdown Menü */
@@ -100,6 +105,8 @@ body {
 /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
 .dropdown:hover .dropbtn {background-color: #2A7221;}
 
+
+
 /* Das Produkt*/
 
 .produkt {
@@ -113,6 +120,16 @@ body {
   width: 598px;
   padding: 10px
 }
+@media only screen and (max-width: 800px) {
+  #produkttext {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #produkttext {
+    width: 300px;
+  }
+}
 
 #produktbild img {
   /*min-width: 480px; /*Für Mobil ändern*/
@@ -122,9 +139,31 @@ body {
   width: 598px;
   height: 424px;
 }
+@media only screen and (max-width: 800px) {
+  #produktbild img {
+    width: 400px;
+    height: 284px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #produktbild img {
+    width: 300px;
+    height: 213px;
+  }
+}
 
 .produktbox {
   width: 598px;
+}
+@media only screen and (max-width: 800px) {
+  .produktbox {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .produktbox {
+    width: 300px;
+  }
 }
 
 
@@ -144,12 +183,32 @@ body {
   width: 600px;
   box-shadow: 5px 5px 3px #333;
 }
+@media only screen and (max-width: 800px) {
+  #boxProduktbild {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #boxProduktbild {
+    width: 300px;
+  }
+}
+
 .detailstext p {
   width: 600px;
   text-align: block;
   margin: 30px 10px;
 }
-
+@media only screen and (max-width: 800px) {
+  .detailstext p {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .detailstext p {
+    width: 300px;
+  }
+}
 
 
 /*Anwendung*/
