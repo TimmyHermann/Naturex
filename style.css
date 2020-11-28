@@ -1,7 +1,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: white;
-  max-width: 80%; /*UNBEDINT Für handy anpassen*/
+  max-width: 100%; /*UNBEDINT Für handy anpassen*/
 }
 main {
   margin: 0 10%; /*muss für kleine screens angepasst werden*/
@@ -24,6 +24,7 @@ body {
   background-image: url("images/forest_bg.jpg");
   background-color: green;
   color: white;
+  margin: 0;
 }
 
 /*Logo oben Links*/
@@ -97,15 +98,27 @@ body {
 
 .produkt {
   margin-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 #produkttext {
-  height: 424px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
-  width: 598px;
+  /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
 }
+
 #produktbild img {
+  /*min-width: 480px; /*Für Mobil ändern*/
+  overflow: hidden;
   border-radius: 0em 3em;
   box-shadow: 5px 5px 3px #333;
 }
+
+.produktbox {
+  width: 40%;
+  min-width: 500px;
+}
+
+
 /*Idee: Das border-left styling als visuellen spacer zwischen den Bildern und dem Text in "Details"
   border-style: solid;
   border-width: 20px; */
@@ -122,11 +135,10 @@ body {
 }
 
 /*Anwendung*/
-
-.anwendungbild img{
-  width: 40vw;
+.anwendung {
+  display: flex;
+  flex-flow: row wrap;
 }
-.anwendungtext {
-  width: 40vw;
-  height: 40vw;
+.anwendungtext, .anwendungsbild img {
+  width: 30%;
 }
