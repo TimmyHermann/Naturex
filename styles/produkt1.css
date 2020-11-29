@@ -6,6 +6,15 @@
     flex-flow: row wrap;
     justify-content: center;
   }
+  
+  .AbstandUeberschrift{
+	  margin-bottom: 40px;
+  }
+  
+  .preis{
+	  color: blue;
+  }
+  
   #produkttext1 {
     /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
     width: 598px;
