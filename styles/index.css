@@ -1,3 +1,7 @@
+h3 {
+  text-align: center;
+}
+
 /* Das Produkt*/
 
 .produkt {
@@ -128,6 +132,18 @@
 .anwendungtext {
   margin-top: 30px;
   margin: 10px;
+}
+
+.bild_vorne {
+  display: none;
+}
+@media only screen and (max-width: 1050px) {
+  .bild_hinten {
+    display: none;
+  }
+  .bild_vorne {
+    display: block;
+  }
 }
 
 
