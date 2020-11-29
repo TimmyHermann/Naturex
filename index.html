@@ -41,7 +41,10 @@
         <main>
             <div class="produkt" id="produkt">
                 <div id="produktbild" class="produktbox">
-                    <img src="images/produkt.webp" alt="Bild der DIY Produkte"/>
+                    <img alt="Bild der DIY Produkte"
+                         srcset="images/produkt.webp 598w,
+                                 images/produkt_m.webp 400w,
+                                 images/prdoukt_s.webp 300w"/>
                 </div>
                 <div id="produkttext" class="produktbox">
                     <h2>DIY Putzmittel</h2>
@@ -53,7 +56,11 @@
 
             <div class="details" id="details">
                 <div class="detailsbild detailsbox">
-                    <img src="images/box.webp" id="boxProduktbild" />
+                    <img id="boxProduktbild"
+                         alt="Bild der Kiste mit Materialien"
+                         srcset="images/box.webp 600w,
+                                 images/box_m.webp 400w,
+                                 images/box_s.webp 300w"/>
                 </div>
                 <div class="detailstext detailsbox">
                     <h2>Details</h2>
@@ -69,10 +76,13 @@
             <hr>
 
             <div class="anwendung" id="anwendung">
-
+                <h3>Anwendung</h3>
                 <div class="anwendung-container">
                     <div class="anwendungbild">
-                        <img src="images/anwendung1.webp" class="anwendungImg"/>
+                        <img class="anwendungImg"
+                             alt="Bild der einzelnen Materialien"
+                             src="images/anwendung1.webp 400w,
+                                  images/anwendung1_s.webp 300w"/>
                     </div>
                     
                     <div class="anwendungtext">
@@ -104,10 +114,19 @@
                         </p>
                     </div>
                     <div class="anwendungbild">
-                        <img src="images/anwendung2.webp" class="anwendungImg"/>
+                        <img class="anwendungImg"
+                             alt="Bild der einzelnen Materialien, ausgepackt"
+                             src="images/anwendung2.webp 400w,
+                                  images/anwendung2_s.webp 300w"/>
                     </div>
                 </div>
                 <div class="anwendung-container">
+                    <div class="anwendungbild">
+                        <img class="anwendungImg"
+                             alt="Bild einer Frau die mit dem Produkt ein Fenster Putzt"
+                             src="images/anwendung3.webp 400w,
+                                  images/anwendung3_s.webp 300w"/>
+                    </div>
                     <div class="anwendungtext">
                         <p>
                         Variante 2
@@ -121,9 +140,6 @@
                         besonders positiv ist.
                         </p>
                     </div>
-                    <div class="anwendungbild">
-                        <img src="images/anwendung3.webp" class="anwendungImg"/>
-                    </div>
                 </div>
             </div>
 
@@ -131,6 +147,8 @@
 
             <div class="team" id="team">
                 <h3>Das Team</h3>
+                <!--Die Bilder müssen auf die Größe angepasst werden
+                -->
                 <div class="team-container">
                     <div class="member-container">
                         <img src="images/team.webp" alt="Ein kleiner Baby Yoda">
@@ -167,9 +185,10 @@
 
             <hr>
 
+        <!-- Social Unterpunkt     
             <div class="social" id="social">
                 <h3>Social Media</h3>
-            </div>
+            </div>-->
         </main>
         <!-- Testcode für Dropdown Menü
         <div class="dropdown">
