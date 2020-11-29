@@ -1,19 +1,22 @@
-#fusszeile{
-	/*position: fixed;*/
+#fusszeile{	/*footer position*/
     bottom: 0;
     width: 100%;
-    background-color:white;
 	max-height: 18%;	
 	overflow: auto;
 	text-shadow: none;
 }
 
-#fusszeile .inhalt ul{
-	float:right;
+#fusszeile .inhalt{  /*Liste von den Links*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	list-style: none;
-	color: #3CE026; 
-	margin-right: 10px;
-	margin-top: -5px;
+	color: #3CE026;	
+}
+
+#fusszeile .inhalt-schrift{ 
+	margin: 5px 10px;
+	
 }
 
 #fusszeile .inhalt-schrift a{
@@ -21,15 +24,20 @@
 	text-decoration: none;
 }
 
-#fusszeile .socials-text {
-	float:left;
-	margin-right: 30px;
-	margin-top: 30px;
+#fusszeile .socials{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+@media only screen and (max-width: 800px){
+	#fusszeile .socials{
+	flex-direction: column;
+	align-items: center;
+	}
 }
 
-#fusszeile .socials-text a{
-	color: #3CE026;
-	text-decoration: none;
+#fusszeile .socials img{
+	margin: 10px;
 }
 
 #fusszeile .icon{
