@@ -15,6 +15,10 @@
 	  color: blue;
   }
   
+  .fussnote{
+	  font-size: 10px;
+  }
+  
   #produkttext1 {
     /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
     width: 598px;
