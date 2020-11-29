@@ -5,6 +5,7 @@
     background-color:white;
 	max-height: 18%;	
 	overflow: auto;
+	text-shadow: none;
 }
 
 #fusszeile .inhalt ul{

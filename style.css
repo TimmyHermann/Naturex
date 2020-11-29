@@ -1,6 +1,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: white;
+  text-shadow: 2px 2px 4px black;
   max-width: 100%; /*UNBEDINT Für handy anpassen*/
 }
 main {
@@ -23,6 +24,8 @@ header {
   color: #fff;
   top: 0;
   left: 0;
+
+  text-shadow: none;
 }
 
 body {
@@ -255,6 +258,8 @@ body {
   height: 400px;
   margin: 10px;
   box-shadow: 2px 2px 10px 3px rgb(73, 73, 73);
+
+  text-shadow: none;
 }
 .member-container img {
   width: 150px;
