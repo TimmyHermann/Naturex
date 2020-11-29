@@ -1,6 +1,6 @@
 html {
     font-family: 'Roboto', sans-serif;
-    color: rgb(2, 37, 2);;
+    color: #359e3c;
     /*text-shadow: 2px 2px 4px black;*/
     max-width: 100%; /*UNBEDINT Für handy anpassen*/
 }
@@ -10,7 +10,7 @@ main {
 
 hr {
   margin: 50px 0;
-  color: white;
+    color: #359e3c;
 }
 /* Darkmode als Feature bei zu viel Zeit*/
 
@@ -21,7 +21,7 @@ body {
   /*background-image: url("images/background2.webp");*/
   /*background-image: url("images/background3.jpg");*/
   background-color: white;
-  color: rgb(2, 37, 2);
+  color: #359e3c;
   margin: 0;
 }
   

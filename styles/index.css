@@ -5,8 +5,6 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  text-decoration: none;
-  color: inherit;
 }
 #produkttext {
   /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
