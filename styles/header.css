@@ -80,8 +80,11 @@ header {
   
   /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
   .dropdown:hover .dropbtn {background-color: #2A7221;}
-
-    display: flex;
+  
+.header-inhalt{
+    list-style-type:none;
+	height: 10vh;
+	display: flex;
     flex-direction: row;
     align-content: space-around;
     flex-wrap: wrap;
