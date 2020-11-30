@@ -12,6 +12,10 @@
 	justify-content: space-around;
 	list-style: none;
 	color: rgb(53, 171, 65);	
+/*Aus irgend einem Grund
+den ich noch nicht gefunden habe
+bekommt die Impressums ul immer 40px padding*/
+	padding-left: -40px;
 }
 
 #fusszeile .inhalt-schrift{ 
@@ -40,9 +44,11 @@
 	margin: 10px;
 }
 
-#fusszeile .icon{
+
+/*#fusszeile .icon{
 	float: left;
 	margin-left: -10px;
 	margin-right: 30px;
 	margin-top: 10px;
 }
+*/
