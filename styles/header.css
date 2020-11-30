@@ -12,7 +12,7 @@ header {
   /*Logo oben Links*/
 #logoTopLeft {
     height: 10vh;
-<<<<<<< Updated upstream
+
     width: auto;
   }
   
@@ -80,7 +80,7 @@ header {
   
   /* Änder die Hintergrundfarbe des Dropdown-Button wenn der Dropdown-Content angezeigt wird */
   .dropdown:hover .dropbtn {background-color: #2A7221;}
-=======
+
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -102,4 +102,4 @@ header {
 	color: inherit;
 	text-decoration: none;
  }
->>>>>>> Stashed changes
+
