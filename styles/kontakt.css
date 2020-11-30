@@ -1,4 +1,4 @@
-.about-ueberschrift{
+.kontaktsheet-ueberschrift{
 	/*statt die Position absolut zu setzen ist es sauberer wenn man dem element einen Margin gibt*/
 	margin-top: 15vh;
 	top: 10%;
@@ -7,20 +7,32 @@
 	font-weight: bold;
 }
 
-.about{
+.kontaktsheet{
 	/*margin-top: 12%;*/
 	float: left;
 }
-@media only screen and (max-width: 800px){
-	.about{
+@media(max-width:414px){
+	.kontaktsheet{
 	margin-top: 40%;
 	}	
 }
 
-#about-wrapper {
+#kontaktsheet-wrapper {
 	width: 80%;
 	margin: 1% auto 1% auto;
+	
+}
+
+#kontaktsheet-infotext{
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.expansion{
+	float: right;
+	list-style: none;
 	padding-bottom: 22%;
+	
 }
 
 
