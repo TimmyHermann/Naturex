@@ -5,7 +5,7 @@ html {
     max-width: 100%; /*UNBEDINT Für handy anpassen*/
 }
 main {
-  margin: 0 10%; /*muss für kleine screens angepasst werden*/
+  /*margin: 0 10%; /*muss für kleine screens angepasst werden*/
 }
 
 hr {
