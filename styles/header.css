@@ -15,7 +15,7 @@ header {
 	height: 10vh;
 	display: flex;
   flex-direction: row;
-  align-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   margin: 0;
 }
