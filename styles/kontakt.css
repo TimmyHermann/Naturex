@@ -1,38 +1,34 @@
 .kontaktsheet-ueberschrift{
-	/*statt die Position absolut zu setzen ist es sauberer wenn man dem element einen Margin gibt*/
-	margin-top: 15vh;
-	top: 10%;
-	font-size: 100%;
+	font-size: 200%;
 	text-decoration: underline; 
 	font-weight: bold;
 }
 
-.kontaktsheet{
-	/*margin-top: 12%;*/
-	float: left;
+#kontaktsheet-wrapper {
+	display: flex;
+	flex-direction: row; /*Anordung nebeneinander*/
+	width: 80%;
+	margin: 1% auto 1% auto;
+	justify-content: space-around;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
 }
-@media(max-width:414px){
-	.kontaktsheet{
-	margin-top: 40%;
+@media only screen and (max-width: 800px){
+	#kontaktsheet-wrapper {
+		display:block;     /*Anordung untereinander*/
 	}	
 }
 
-#kontaktsheet-wrapper {
-	width: 80%;
-	margin: 1% auto 1% auto;
-	
-}
-
-#kontaktsheet-infotext{
-	padding-top: 20px;
-	font-weight: bold;
+.kontaktsheet{
+	display: flex;
+	flex-direction: column;
+	flex-flow: row-wrap;
 }
 
 .expansion{
-	float: right;
-	list-style: none;
-	padding-bottom: 22%;
-	
+	display: flex;
+	flex-direction: column;
+	flex-flow: row-wrap;
+	margin-top: 8%;
 }
-
 
