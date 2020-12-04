@@ -4,18 +4,23 @@
 	font-weight: bold;
 }
 
+.formular-ueberschrift{
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
 #kontaktsheet-wrapper {
 	display: flex;
 	flex-direction: row; /*Anordung nebeneinander*/
-	width: 80%;
-	margin: 1% auto 1% auto;
+	margin: 10vh;
+	padding: 10vh;
 	justify-content: space-around;
-	margin-top: 15vh;
-	margin-bottom: 15vh;
+	
+	
 }
 @media only screen and (max-width: 800px){
 	#kontaktsheet-wrapper {
-		display:block;     /*Anordung untereinander*/
+		display:grid;     /*Anordung untereinander*/
 	}	
 }
 
@@ -29,6 +34,5 @@
 	display: flex;
 	flex-direction: column;
 	flex-flow: row-wrap;
-	margin-top: 8%;
 }
 
