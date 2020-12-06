@@ -8,19 +8,27 @@
 	font-weight: bold;
 	padding-bottom: 20px;
 }
+@media only screen and (max-width: 800px){
+	.formular {
+		text-align: center;
+	}	
+}
 
 #kontaktsheet-wrapper {
 	display: flex;
 	flex-direction: row; /*Anordung nebeneinander*/
-	margin: 10vh;
-	padding: 10vh;
 	justify-content: space-around;
+    padding-top: 20vh;
+	padding-bottom: 10vh;
 	
 	
 }
 @media only screen and (max-width: 800px){
 	#kontaktsheet-wrapper {
-		display:grid;     /*Anordung untereinander*/
+		padding-top: 10vh;
+		width: 100%;
+		flex-flow: row wrap;
+		justify-content: center;
 	}	
 }
 
@@ -29,10 +37,8 @@
 	flex-direction: column;
 	flex-flow: row-wrap;
 }
-
-.expansion{
-	display: flex;
-	flex-direction: column;
-	flex-flow: row-wrap;
+@media only screen and (max-width: 800px){
+	.kontaktsheet {
+		text-align: center;
+	}	
 }
-
