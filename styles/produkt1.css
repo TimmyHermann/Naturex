@@ -3,6 +3,18 @@ hr{
 	color: green;
 }
 
+#Warenkorb{
+	background-color: green;
+	overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px #333;
+}
+
+#Menge{
+	width: 3.631em;
+	text-align: center;
+}
+
 .produkt1 {
     margin-top: 5vh;
     display: flex;
