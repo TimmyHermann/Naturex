@@ -1,7 +1,10 @@
 /* Das Produkt*/
+hr{
+	color: green;
+}
 
 .produkt1 {
-    margin-top: 20vh;
+    margin-top: 5vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
