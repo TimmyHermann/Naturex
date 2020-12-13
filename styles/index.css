@@ -2,7 +2,45 @@ h3 {
   text-align: center;
 }
 
-/* Das Produkt*/
+/*waterfall bg*/
+.bg {
+  margin-top: 10vh;
+  margin: 10vh 0 0 0;
+  background: url(/images/waterafall_og.gif) center / cover;
+  height: 500px;
+  width: auto;
+}
+.bg h1 {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 200px;
+  text-shadow: 3px 3px 20px black;
+} 
+
+/*Die Produkte*/
+
+.products {
+  text-align: center;
+}
+.products h2 {
+  text-align: center;
+  margin-top: 60px;
+}
+.products-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.products-box img {
+  height: 300px;
+}
+.products-box {
+  width: 300px;
+  margin: 20px;
+}
+
+/* Das Produkt
 
 .produkt {
   margin-top: 20vh;
@@ -12,7 +50,7 @@ h3 {
 }
 #produkttext {
   /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
-  width: 598px;
+/*width: 598px;
   margin: 20px
 }
 @media only screen and (max-width: 800px) {
@@ -25,6 +63,7 @@ h3 {
     width: 300px;
   }
 }
+*/
 
 #produktbild img {
   /*min-width: 480px; /*Für Mobil ändern*/
@@ -117,7 +156,7 @@ h3 {
 }
 .anwendungtext, .anwendungImg {
   width: 400px;
-  margin-top:30px;
+  margin:30px 20px;
 }
 @media only screen and (max-width: 450px) {
   .anwendungtext, .anwendungImg {
