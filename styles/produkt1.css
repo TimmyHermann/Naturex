@@ -27,7 +27,6 @@ hr{
     justify-content: center;
   }
   #produkttext1 {
-    /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
     width: 400px;
     margin: 20px
   }
@@ -43,7 +42,6 @@ hr{
   }
   
   #produktbild1 img {
-    /*min-width: 480px; /*Für Mobil ändern*/
     overflow: hidden;
     border-radius: 0em 3em;
     box-shadow: 5px 5px 5px #333;
