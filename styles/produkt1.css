@@ -25,6 +25,7 @@ hr{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+	height: 500px;
   }
   #produkttext1 {
     /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
@@ -47,8 +48,8 @@ hr{
     overflow: hidden;
     border-radius: 0em 3em;
     box-shadow: 5px 5px 5px #333;
-    width: 598px;
-    height: 424px;
+    width: 460px;
+    height: 400px;
   }
   @media only screen and (max-width: 800px) {
     #produktbild1 img {
