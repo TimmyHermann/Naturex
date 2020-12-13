@@ -27,3 +27,31 @@ body {
   margin-left: 0;
 }
   
+@font-face {
+    font-family: 'brightsideregular';
+    src: url('brightside-regular1-webfont.woff2') format('woff2'),
+         url('brightside-regular1-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'beautysalon_scriptregular';
+    src: url('beautysalonscript-regular-webfont.woff2') format('woff2'),
+         url('beautysalonscript-regular-webfont.woff') format('woff');
+}
+
+h1 {
+	font-family: 'brightsideregular';
+}
+
+h2 {
+	font-family: 'brightsideregular';
+}
+
+h3 {
+	font-family: 'brightsideregular';
+	font-size: 150%;
+}
+
+#header-logo{
+	font-family: 'beautysalon_scriptregular';
+}
