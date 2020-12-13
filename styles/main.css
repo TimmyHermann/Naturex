@@ -7,6 +7,8 @@ html {
 
 main {
   margin: 0 10%; /*muss für kleine screens angepasst werden*/
+  font-size: 120%;
+  line-height: 120%;
 }
 
 hr {
@@ -14,13 +16,9 @@ hr {
   color: rgb(53, 171, 65);
 }
 
-/* Darkmode als Feature bei zu viel Zeit*/
-
 /* header Position und Farbe */
 
 body {
-  /*background-image: url("images/forest_bg.jpg");*/
-  /*background-image: url("images/background2.webp");*/
   background-image: url("/images/background.jpg");
   background-color: white;
   color: rgb(53, 171, 65);
