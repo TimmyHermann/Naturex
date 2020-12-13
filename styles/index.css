@@ -16,6 +16,10 @@ h3 {
   margin-top: 0;
   padding-top: 200px;
   text-shadow: 3px 3px 20px black;
+
+  font-family: 'beautysalon_scriptregular';
+  font-size: 4em;
+
 } 
 
 /*Die Produkte*/
@@ -34,6 +38,7 @@ h3 {
 }
 .products-box img {
   height: 300px;
+  box-shadow: 5px 5px 5px #333;
 }
 .products-box {
   width: 300px;
