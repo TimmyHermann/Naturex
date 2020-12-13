@@ -28,17 +28,17 @@ hr{
   }
   #produkttext1 {
     /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
-    width: 598px;
+    width: 400px;
     margin: 20px
   }
   @media only screen and (max-width: 800px) {
     #produkttext1 {
-      width: 400px;
+      width: 350px;
     }
   }
   @media only screen and (max-width: 450px) {
     #produkttext1 {
-      width: 300px;
+      width: 250px;
     }
   }
   
@@ -47,19 +47,19 @@ hr{
     overflow: hidden;
     border-radius: 0em 3em;
     box-shadow: 5px 5px 5px #333;
-    width: 598px;
-    height: 424px;
+    width: 400px;
+    height: 400px;
   }
   @media only screen and (max-width: 800px) {
     #produktbild1 img {
-      width: 400px;
-      height: 284px;
+      width: 350px;
+      height: 350px;
     }
   }
   @media only screen and (max-width: 450px) {
     #produktbild1 img {
-      width: 300px;
-      height: 213px;
+      width: 250px;
+      height: 250px;
     }
   }
   
