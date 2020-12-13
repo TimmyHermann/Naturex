@@ -19,6 +19,7 @@ hr {
 /* header Position und Farbe */
 
 body {
+  background-image: url("images/background.jpg");
   background-image: url("/images/background.jpg");
   background-color: white;
   color: rgb(53, 171, 65);
