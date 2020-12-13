@@ -36,6 +36,7 @@ h3 {
 }
 .products-box img {
   height: 300px;
+  box-shadow: 5px 5px 5px #333;
 }
 .products-box {
   width: 300px;
