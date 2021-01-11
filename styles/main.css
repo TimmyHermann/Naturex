@@ -1,12 +1,10 @@
 html {
     font-family: 'Roboto', sans-serif;
     color: rgb(53, 171, 65);
-    /*text-shadow: 2px 2px 4px black;*/
-    max-width: 100%; /*UNBEDINT Für handy anpassen*/
 }
 
 main {
-  margin: 0 10%; /*muss für kleine screens angepasst werden*/
+  margin: 0 10%;
   font-size: 120%;
   line-height: 120%;
 }
@@ -19,7 +17,7 @@ hr {
 /* header Position und Farbe */
 
 body {
-  background-image: url("/images/background.jpg");
+  background-image: url("../images/background.webp");
   background-color: white;
   color: rgb(53, 171, 65);
   margin: 0;

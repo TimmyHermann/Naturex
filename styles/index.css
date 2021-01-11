@@ -6,7 +6,7 @@ h3 {
 .bg {
   margin-top: 10vh;
   margin: 10vh 0 0 0;
-  background: url(/images/waterafall_og.gif) center / cover;
+  background: url(../images/waterfall_og.webp) center / cover;
   height: 500px;
   width: auto;
 }
@@ -46,6 +46,7 @@ h3 {
 }
 .products-box {
   width: 300px;
+  height: 670px;
   margin: 20px;
 }
 
